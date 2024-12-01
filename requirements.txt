@@ -1,7 +1,14 @@
 python-dotenv==1.0.0
 requests==2.31.0
-supabase==2.0.3
-python-telegram-bot==20.7
+supabase-py==2.0.3
+python-telegram-bot[job-queue]==20.7
 aiohttp==3.9.1
 asyncio==3.4.3
 tenacity==8.2.3
+typing-extensions>=4.5.0
+httpx>=0.24.1
+postgrest>=0.10.8
+gotrue>=1.1.0
+realtime>=1.0.0
+setuptools>=65.5.1
+wheel>=0.38.4
